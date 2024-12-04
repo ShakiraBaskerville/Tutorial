@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>1</AudioIndexer>
+      <AudioIndexer>2</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -2158,7 +2158,7 @@
                 <ID>3</ID>
                 <Image>0</Image>
                 <Name>iInvItem1</Name>
-                <PlayerStartsWithItem>True</PlayerStartsWithItem>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
                 <Properties />
                 <Interactions>
                   <Event Index="0" />
@@ -2171,8 +2171,8 @@
               <InventoryItem>
                 <CursorImage>0</CursorImage>
                 <Description xml:space="preserve">New inventory item</Description>
-                <HotspotX>0</HotspotX>
-                <HotspotY>0</HotspotY>
+                <HotspotX>10</HotspotX>
+                <HotspotY>9</HotspotY>
                 <ID>8</ID>
                 <Image>0</Image>
                 <Name>iInvItem6</Name>
@@ -2263,12 +2263,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
+            <CursorImage>4</CursorImage>
             <Description xml:space="preserve">sand bucket</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>9</HotspotX>
+            <HotspotY>9</HotspotY>
             <ID>4</ID>
-            <Image>0</Image>
+            <Image>4</Image>
             <Name>iBasketball</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -5879,7 +5879,21 @@ See KeyboardMovement.txt for details.
             </AudioClipFolder>
           </AudioClipFolder>
         </SubFolders>
-        <AudioClips />
+        <AudioClips>
+          <AudioClip>
+            <BundlingType>InGameEXE</BundlingType>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <DefaultVolume>-1</DefaultVolume>
+            <FileType>MP3</FileType>
+            <ID>1</ID>
+            <Index>2</Index>
+            <ScriptName>aBeach_sound_with_seagulls_218923</ScriptName>
+            <SourceFileName>C:\Users\sbaskerv\Downloads\beach-sound-with-seagulls-218923.mp3</SourceFileName>
+            <Type>1</Type>
+            <FileLastModifiedDate>2024-12-04 22:00:50Z</FileLastModifiedDate>
+          </AudioClip>
+        </AudioClips>
         <AudioClipFolder>
           <DefaultBundlingType>InGameEXE</DefaultBundlingType>
           <DefaultPriority>Normal</DefaultPriority>
